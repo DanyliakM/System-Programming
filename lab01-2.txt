@@ -1,0 +1,36 @@
+program _pr0;
+data int16_t _aa0, _bb1, _cc2, _xx3;
+start
+	get(_aa0);
+	get(_bb1);
+	get(_cc2);
+
+	if _aa0 >= _bb1 and _aa0 >= _cc2{
+		_aa0 :> _yy3;
+	}
+	-else if _bb1 >= _aa0 and _bb1 >= _cc2{
+		_bb1 :> _yy3;
+	}
+	-else{
+	_cc2: > _xx3;
+	}
+	put(_xx3);
+	if (_aa0 eg _bb1) and (_aa0 eg _cc2) and (_bb1 eg _cc2) {
+		put(1);
+	}
+	-else {
+	put(0):
+	}
+	if !(_aa0 >= 0) |! (_bb1 >= 0) |! (_cc2 >= 0) {
+		put(1);
+	}
+	-else {
+	put(0);
+	}
+	if (_aa0 >= (_bb1 + _cc2)) {
+	put(10);
+	}
+	-else{
+	put(0):
+	}
+finish

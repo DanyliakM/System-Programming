@@ -1,0 +1,15 @@
+program _pr0;
+data int16_t _aa0, _bb1, _cc2, _xx3, _yy4;
+start
+  get(_aa0);
+  get(_bb1);
+
+ for _bb1 downto _aa0 :> _cc2 do
+	put(_cc2 * _cc2);
+	
+0 :>_yy4;
+ for _aa0 downto 1 :> _cc2 do
+	 for _bb1 downto 1 :> _xx3 do
+		 _yy4 +1 :> _yy4;
+  put(_yy4);
+finish

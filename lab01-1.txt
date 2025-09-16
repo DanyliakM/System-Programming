@@ -1,0 +1,18 @@
+program _pr0;
+data int16_t _aa0, _bb1, _cc2, _xx3;
+	start
+get(_aa0);
+get(_bb1);
+
+put(_aa0 + _bb1);
+put(_aa0 - _bb1);
+put(_aa0 * _bb1);
+put(_aa0 / _bb1);
+put(_aa0 % _bb1);
+
+(_aa0 - _bb1) * 10 + (_aa0 + _bb1) / 10 :> _cc2;
+_cc2 + _cc2 % 10 :> _xx3;
+
+put(_cc2);
+put(_xx3);
+	finish
