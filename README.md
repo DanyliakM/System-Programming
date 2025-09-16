@@ -1,3 +1,3 @@
 # System-Programming
-Here you can find the labs I have done for the course System Programming
-/See ya.
+Here you can find the labs I have done for the course System Programmin
+## *See ya.*
