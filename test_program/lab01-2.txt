@@ -12,7 +12,7 @@ start
 		_bb1 :> _yy3;
 	}
 	else{
-		_cc2: > _xx3;
+		_cc2 :> _xx3;
 	}
 	put(_xx3);
 	if (_aa0 eg _bb1) and (_aa0 eg _cc2) and (_bb1 eg _cc2) {
