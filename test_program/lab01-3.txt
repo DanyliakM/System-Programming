@@ -4,12 +4,12 @@ start
   get(_aa0);
   get(_bb1);
 
- for _bb1 downto _aa0 :> _cc2 do
+ for _bb1 :> _cc2 downto _aa0 do
 	put(_cc2 * _cc2);
 	
 _aa0 :>_yy4;
- for _aa0 downto 1 :> _cc2 do
-	 for _bb1 downto 1 :> _xx3 do
+ for _aa0 :> _cc2 downto 1 do
+	 for _bb1 :> _xx3 downto 1 do
 		 _yy4 +1 :> _yy4;
   put(_yy4);
 finish
