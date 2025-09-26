@@ -7,7 +7,7 @@ start
  for _bb1 :> _cc2 downto _aa0 do
 	put(_cc2 * _cc2);
 	
-_aa0 :>_yy4;
+0 :>_yy4;
  for _aa0 :> _cc2 downto 1 do
 	 for _bb1 :> _xx3 downto 1 do
 		 _yy4 +1 :> _yy4;
