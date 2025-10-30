@@ -19,7 +19,11 @@ start
 		put(1);
 	}
 	else {
+<<<<<<< HEAD:test_programs/test02.d07
 		put(0);
+=======
+		put(0):
+>>>>>>> 513c3108d629ccfb65b8c5c0f5869dfedd8ae6dc:test_program/lab01-2.txt
 	}
 	if !(_aa0 >= 0) |! (_bb1 >= 0) |! (_cc2 >= 0) {
 		put(1);
@@ -31,6 +35,10 @@ start
 		put(10);
 	}
 	else{
+<<<<<<< HEAD:test_programs/test02.d07
 		put(0);
+=======
+		put(0):
+>>>>>>> 513c3108d629ccfb65b8c5c0f5869dfedd8ae6dc:test_program/lab01-2.txt
 	}
 finish
